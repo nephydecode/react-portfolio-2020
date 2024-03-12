@@ -1,0 +1,52 @@
+.message-box {
+    background: rgba(0,0,0,0.40);
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.message-old{
+    position: absolute;
+    top: 40%;  /* position the top  edge of the element at the middle of the parent */
+    left: 70%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.message-new {
+    position: fixed;
+    top: 40%;
+    right: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-10%, -50%);
+
+}
+
+.message {
+    font-family: Raleway-Bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0.17px;
+    text-align: right;
+    text-shadow: 0 4px 8px #000000;
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: 5%;
+    left : 48%;
+    right : 50%;
+    transform : translatey(-10px);
+    animation: float 2s ease-in-out infinite;
+}
+
+.message-half-space{
+    line-height: 75%;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(-10px);
+    }
+    50%{
+        transform: translatey(10px);
+    }
+}

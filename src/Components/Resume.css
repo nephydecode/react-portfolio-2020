@@ -1,0 +1,26 @@
+.timeline-item-row {
+    align-content: flex-start;
+    margin: 0 auto;
+}
+
+.timeline-title{
+      font-family: Raleway-Bold;
+      font-size: 24px;
+      color: #219BFE;
+      letter-spacing: 0.1px;
+}
+
+.timeline-subtitle{
+    font-family: Raleway-SemiBold;
+    font-size: 16px;
+    color: #219BFE;
+    letter-spacing: 0.1px;
+    line-height: 70%;
+}
+
+.timeline-details{
+    font-family: Raleway-SemiBold;
+    font-size: 15px;
+    color: #494949;
+    letter-spacing: 0.05px;
+}

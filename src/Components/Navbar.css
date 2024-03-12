@@ -1,0 +1,20 @@
+.nav-logo {
+    background-color: steelblue;
+    padding-left : 20px;
+    padding-right : 20px;
+    border-radius: 2px;
+}
+
+.header{
+    font-family: Raleway;
+    font-size: 40px;
+    color: #494949;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.nav-body {
+    color: #494949;
+    text-shadow: none;
+}
+
