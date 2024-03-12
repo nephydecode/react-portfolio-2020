@@ -1,11 +1,27 @@
-# React With Smooth Scrolling
+![](./public/logo100.png)
+# Developer Web Portfolio 👨‍💻
+Welcome to my developer web portfolio! 
 
-![React with Smooth Scrolling](./images/cover.png)
+This is a react app created to showcase my skills & experiences as a developer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](./public/preview.gif)
 
-## To Run
+| Live Preview |
+|--------------|
+|https://nephydecode.github.io/react-portfolio-2020/|
 
-- clone this repository
-- run `npm install`
-- run `npm start`
+## Usage
+1. Clone the repository
+```
+git clone https://github.com/nephydecode/react-portfolio-2020.git
+```
+
+2. Install dependencies
+```
+npm install
+```
+
+3. Spin up the server
+```
+npm start
+```
